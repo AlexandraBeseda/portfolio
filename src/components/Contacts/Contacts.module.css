@@ -1,0 +1,29 @@
+.contactsBlock {
+    height: 100vh;
+    background-color: chocolate;
+}
+
+.contactsContainer {
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.contactForm {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+input[type=text], textarea {
+    margin: 5px;
+    width: 200px;
+    resize: none;
+    /* resize применяется только к textarea остальными игнорируется*/
+    /*Указывает, можно ли пользователю изменять размеры текстового поля.*/
+    /*resize: none | both | horizontal | vertical | inherit*/
+
+}

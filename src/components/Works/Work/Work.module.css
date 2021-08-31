@@ -3,11 +3,33 @@
     flex-direction: column;
     align-items: center;
     width: 250px;
-    background-color: chartreuse;
+    background-color: burlywood;
     text-align: center;
     border: 1px solid;
+    margin: 5px;
+}
+
+.imageContainer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: chartreuse;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("https://image.shutterstock.com/image-illustration/panorama-above-ocean-sunset-made-260nw-488365297.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.watch {
 
 }
-.description{
+
+.description {
     background-color: cadetblue;
+}
+
+.title {
+    background-color: darkmagenta;
 }
