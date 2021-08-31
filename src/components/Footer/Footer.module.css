@@ -1,0 +1,34 @@
+/*
+.footer {
+    height: 200px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}*/
+.footerBlock {
+    background-color: aqua;
+    height: 50vh;
+}
+
+/*взяла из Container.module.css  изменила высоту на 50%*/
+.footerContainer {
+
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.title {
+    background-color: darkmagenta;
+}
+
+.smth {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+}
+
+.rights{
+    background-color: coral;
+}

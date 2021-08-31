@@ -14,7 +14,7 @@ export const AboutMe = () => {
                     <h5>
                         Hello,I am Michkel. Currently working as a senior Website Developer.
                     </h5>
-                    <p>
+                    {/*                    <p>
                         I am Harrison Michkel.
                         Currently working as a senior Website Developer.
                         I am always passionate about Website Development,
@@ -38,7 +38,7 @@ export const AboutMe = () => {
                         and more recently with desktop publishing software like Aldus PageMaker including versions of
                         Lorem
                         Ipsum.
-                    </p>
+                    </p>*/}
                 </div>
 
             </div>
