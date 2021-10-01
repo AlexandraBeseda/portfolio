@@ -1,16 +1,22 @@
 .worksBlock {
-    height: 100vh;
-    background-color: cyan;
+    /*height: 100vh;*/
+    /*background-color: cyan;*/
+    background: #fff none repeat scroll 0 0;
 }
-.worksContainer{
+
+.worksContainer {
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    line-height: 22px;
 }
-.title{
-    background-color: darkmagenta;
-}
-.works{
+
+
+.works {
     display: flex;
     justify-content: space-evenly;
     border: 1px solid;

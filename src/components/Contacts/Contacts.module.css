@@ -1,9 +1,9 @@
 .contactsBlock {
-    height: 100vh;
-    background-color: chocolate;
+    background: #f8f8f8 none repeat scroll 0 0;
 }
 
 .contactsContainer {
+    border: 1px solid black;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
@@ -12,18 +12,12 @@
 .contactForm {
     border: 1px solid;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-
-
+    width: 600px;
 }
-
-input[type=text], textarea {
-    margin: 5px;
-    width: 200px;
-    resize: none;
-    /* resize применяется только к textarea остальными игнорируется*/
-    /*Указывает, можно ли пользователю изменять размеры текстового поля.*/
-    /*resize: none | both | horizontal | vertical | inherit*/
-
+/*ширина инпута равна то что указано ниже (min-width: 1129px), если размер экрана больше 1129x*/
+@media screen and (max-width: 768px) {
+    .contactForm {
+        width: 100%;
+    }
 }

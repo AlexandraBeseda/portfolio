@@ -1,15 +1,47 @@
 .mainBlock {
-    height: 100vh;
-    background-color: cadetblue;
+    /*height: 100vh;*/
+    background: #fff none repeat scroll 0 0;
+}
+
+.aboutMeContainer {
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    /*чтобы имя фамилия по центру блока были*/
+    text-align: center;
+}
+
+
+.containerForPhotoAndText {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .photo {
     height: 400px;
-    width: 300px;
+    width: 280px;
     background-color: brown;
 }
 
 .text {
-    width: 700px;
-    background-color: burlywood;
+   border: 1px solid black;
+}
+
+.text h5 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0 10px;
+    color: #444;
+}
+
+.text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #444;
 }

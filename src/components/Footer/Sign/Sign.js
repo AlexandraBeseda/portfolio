@@ -3,9 +3,7 @@ import s from "./Sign.module.css";
 
 export const Sign = () => {
     return (
-        <div >
-
-                <img className={s.icon}></img>
+        <div className={s.icon}>
 
 
         </div>

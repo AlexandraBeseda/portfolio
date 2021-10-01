@@ -1,0 +1,95 @@
+
+.nameAndEmailContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.name, .email, .subject {
+    height: 30px;
+    margin: 15px;
+    border: 0;
+    resize: none;
+    /* resize применяется только к textarea остальными игнорируется*/
+    /*Указывает, можно ли пользователю изменять размеры текстового поля.*/
+    /*resize: none | both | horizontal | vertical | inherit*/
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.subjectAndContentContainer {
+    display: flex;
+}
+
+.subject, .content {
+    margin: 15px;
+    width: 100%;
+    height: 30px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+
+.content {
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+    resize: none;
+}
+.subject:focus,.name:focus, .email:focus,.content:focus {
+    /*border-color: #007eff;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 0 3px rgba(0, 126, 255, 0.1);
+    outline: none;*/
+    border-color: #007eff;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 0 3px rgba(0, 126, 255, 0.1);
+    outline: none;
+}
+
+/*input[type=text], textarea {}*/
+.submitBtnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+
+}
+
+.submitBtn  {
+    border: 1px solid #444;
+    color: #444;
+    font-size: 20px;
+
+    margin-top: 30px;
+    background: transparent none repeat scroll 0 0;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    padding: 14px 30px;
+    text-transform: capitalize;
+}
+
+.submitBtn:hover {
+    background: #252525 none repeat scroll 0 0;
+    border: 1px solid #252525;
+    color: #fff;
+}
+
+.submitBtn:disabled {
+    opacity: .5;
+    cursor: not-allowed !important;
+}
+
+
+/*ширина инпута равна то что указано ниже (min-width: 1129px), если размер экрана больше 1129x*/
+@media screen and (max-width: 768px) {
+    .email, .name {
+        width: 100%;
+    }
+}

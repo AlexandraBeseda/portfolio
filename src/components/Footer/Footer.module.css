@@ -1,29 +1,23 @@
-
 .footerBlock {
-    background-color: aqua;
-    height: 50vh;
+    background-color: #252525;
+    /* height: 50vh;*/
 }
 
-/*взяла из Container.module.css  изменила высоту на 50%*/
 .footerContainer {
-
+    padding: 60px 0;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-box-sizing: border-box;
+    box-sizing: border-box;
+    /*чтобы имя фамилия по центру блока были*/
+    text-align: center;
 }
 
-.title {
-    background-color: darkmagenta;
-}
-
-.smth {
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid;
-    width: 50%;
-}
-
-.rights{
-    background-color: coral;
+.rights {
+    border: 1px solid #ddd;
+    margin: 0 0 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ddd;
 }
