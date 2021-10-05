@@ -1,6 +1,4 @@
 .worksBlock {
-    /*height: 100vh;*/
-    /*background-color: cyan;*/
     background: #fff none repeat scroll 0 0;
 }
 
@@ -22,5 +20,4 @@
     border: 1px solid;
     width: 100%;
     flex-wrap: wrap;
-    box-sizing: border-box;
 }

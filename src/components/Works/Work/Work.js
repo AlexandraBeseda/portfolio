@@ -4,14 +4,16 @@ import s from "./Work.module.css";
 export const Work = (props) => {
     return (
         <div className={s.work}>
-            <div className={s.imageContainer}>
-                <a href={""}>Watch
-                    {/*<img src="" alt={"project"}/>*/}
-                </a>
-
+            <div className={s.imageContainer} style={{backgroundImage: `url(${props.img})`}}>
+                {/*перекрывает*/}
+                <div className={s.overlay}>
+                    <h3 className={s.title}>{props.title}</h3>
+                    <p className={s.description}>{props.description}</p>
+                    <a className={s.button} href={props.link}>
+                        Watch
+                    </a>
+                </div>
             </div>
-            <div className={s.title}>{props.title}</div>
-            <div className={s.description}>{props.description}</div>
         </div>
     );
 }

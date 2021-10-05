@@ -1,6 +1,5 @@
 .footerBlock {
     background-color: #252525;
-    /* height: 50vh;*/
 }
 
 .footerContainer {
@@ -8,7 +7,6 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    box-sizing: border-box;
     /*чтобы имя фамилия по центру блока были*/
     text-align: center;
 }
