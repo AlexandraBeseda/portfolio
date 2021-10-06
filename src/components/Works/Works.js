@@ -3,8 +3,8 @@ import s from "./Works.module.css";
 import styleContainer from "./../../common/styles/Container.module.css"
 import {Work} from "./Work/Work";
 import {Title} from "../../common/components/Title";
-import socialAppImg from "../../assets/image/imgProject/put_samuraya.jpg";
-import todolistAppImg from "../../assets/image/imgProject/todolist.jpg";
+/*import socialAppImg from "../../assets/image/imgProject/put_samuraya.jpg";
+import todolistAppImg from "../../assets/image/imgProject/todolist.jpg";*/
 
 
 export const PATH = {

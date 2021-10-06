@@ -1,13 +1,17 @@
 import React from "react";
 import s from "./Signs.module.css";
-import {Sign} from "../Sign/Sign";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faGithub, faGoogle, faFacebook, faLinkedinIn} from '@fortawesome/free-brands-svg-icons';
+import {faMobileAlt} from "@fortawesome/free-solid-svg-icons/faMobileAlt";
 
 export const Signs = () => {
+    //TODO может стоит прижать к низу?
     return (<div className={s.icons}>
-            <Sign/>
-            <Sign/>
-            <Sign/>
-            <Sign/>
+            <a><FontAwesomeIcon icon={faGithub} size={"2x"} className={s.icon}/></a>
+            <FontAwesomeIcon icon={faGoogle} size={"2x"} className={s.icon} />
+            <FontAwesomeIcon icon={faFacebook} size={"2x"} className={s.icon} />
+            <FontAwesomeIcon icon={faMobileAlt} size={"2x"} className={s.icon} />
+            <FontAwesomeIcon icon={faLinkedinIn} size={"2x"} className={s.icon} />
         </div>
     );
 }
