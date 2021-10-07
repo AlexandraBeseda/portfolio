@@ -8,10 +8,10 @@ export const Signs = () => {
     //TODO может стоит прижать к низу?
     return (<div className={s.icons}>
             <a><FontAwesomeIcon icon={faGithub} size={"2x"} className={s.icon}/></a>
-            <FontAwesomeIcon icon={faGoogle} size={"2x"} className={s.icon} />
-            <FontAwesomeIcon icon={faFacebook} size={"2x"} className={s.icon} />
-            <FontAwesomeIcon icon={faMobileAlt} size={"2x"} className={s.icon} />
-            <FontAwesomeIcon icon={faLinkedinIn} size={"2x"} className={s.icon} />
+            <a><FontAwesomeIcon icon={faGoogle} size={"2x"} className={s.icon}/></a>
+            <a><FontAwesomeIcon icon={faFacebook} size={"2x"} className={s.icon}/></a>
+            <a><FontAwesomeIcon icon={faMobileAlt} size={"2x"} className={s.icon}/></a>
+            <a><FontAwesomeIcon icon={faLinkedinIn} size={"2x"} className={s.icon}/></a>
         </div>
     );
 }

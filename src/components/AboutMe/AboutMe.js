@@ -17,6 +17,8 @@ export const AboutMe = () => {
                         <h5>
                             Hello,I am Alexandra. Currently working as a senior Website Developer.
                         </h5>
+
+                        {/*TODO здесь можно попроще?*/}
                         <p>I am always passionate about Website Development,<br/>
                             love to create modern Website & provide great client support.
                         </p>

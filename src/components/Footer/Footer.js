@@ -9,7 +9,6 @@ export const Footer = () => {
         <div className={s.footerBlock}>
             <div className={`${styleContainer.container} ${s.footerContainer}`}>
                 <Signs/>
-
                 <div className={s.rights}>@2021 All rights reserved.</div>
             </div>
         </div>
