@@ -22,22 +22,25 @@
 .imageContainer:hover {
     transform: translateY(-10px);
     background-color: black;
-    border: 2px solid #f8f8f8;
-
 }
-
-.imageContainer:hover .icon {
-    color:  #f8f8f8;
+.imageContainer:hover .iconSquare {
+    color:#f8f8f8 ;
 }
-
-.icon {
-    color: black;
+.iconSquare {
+    color:  black;
     transition: color .2s ease-in-out;
     font-size: 64px;
 }
-
-.icon:hover {
+/*кошка и гит иначе !!!!*/
+.iconCircle {
+    color:  black;
+    transition: color .2s ease-in-out;
+    font-size: 100px;
 }
+.iconCircle:hover {
+    color: #f8f8f8;
+}
+
 
 .description {
     color: #444;
