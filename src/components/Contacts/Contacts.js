@@ -7,10 +7,12 @@ import {ContactForm} from "./ContactForm/ContactForm";
 export const Contacts = () => {
     return (
         <div className={s.contactsBlock}>
+            <a name={"contacts"} />
             <div className={`${styleContainer.container} ${s.contactsContainer}`}>
                 <Title title={"Contacts"}/>
                 <div className={s.contactForm}>
                     <ContactForm/>
+
                 </div>
 
 

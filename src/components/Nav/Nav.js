@@ -18,13 +18,13 @@ export const Nav = () => {
                         <a href="#">Home</a>
                     </li>
                     <li className={`${s.menuItem} ${isActive && s.hidden}`}>
-                        <a href="#">About</a>
+                        <a href={"#about"}>About</a>
                     </li>
                     <li className={`${s.menuItem} ${isActive && s.hidden}`}>
-                        <a href="#">Info</a>
+                        <a href={"#works"}>Works</a>
                     </li>
                     <li className={`${s.menuItem} ${isActive && s.hidden}`}>
-                        <a href="#">Contact</a>
+                        <a href={"#contacts"}>Contact</a>
                     </li>
                 </ul>
 

@@ -6,7 +6,7 @@ import {Title} from "../../common/components/Title";
 export const AboutMe = () => {
     return (
         <div className={s.mainBlock}>
-
+            <a name={"about"}/>
             <div className={`${styleContainer.container} ${s.aboutMeContainer}`}>
                 <Title title={"About Alexandra"}/>
                 <div className={s.containerForPhotoAndText}>

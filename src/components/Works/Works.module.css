@@ -17,7 +17,6 @@
 .works {
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid;
     width: 100%;
     flex-wrap: wrap;
 }

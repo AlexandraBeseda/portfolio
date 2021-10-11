@@ -20,6 +20,8 @@ export const Works = () => {
     const socialAppBackImg = "https://i.pinimg.com/564x/31/61/92/3161926df735b51a872ab4fbece6ef9f.jpg";
     return (
         <div className={s.worksBlock}>
+            <a name={"works"}/>
+
             <div className={`${styleContainer.container} ${s.worksContainer}`}>
                 <Title title={"Works"}/>
                 <div className={s.works}>
@@ -29,6 +31,7 @@ export const Works = () => {
                           link={"https://alexandrabeseda.github.io/Put_samuraya_tsx/"}/>
                     <Work img={socialAppBackImg} title={"Ignat"} description={"Ignat Ignat"}
                           link={"https://alexandrabeseda.github.io/Put_samuraya_tsx/"}/>
+
                 </div>
             </div>
 
