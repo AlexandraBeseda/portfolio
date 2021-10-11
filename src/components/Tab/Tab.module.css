@@ -1,13 +1,18 @@
 .mainBlock {
     height: 60vh;
-    box-sizing: border-box;
     background-image: url("./../../assets/image/v4.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: fixed;
     position: relative;
+    /*-------------*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .tabContainer {
     display: flex;
     flex-direction: column;
@@ -16,7 +21,7 @@
 }
 
 
-.tabContainer h1{
+.tabContainer h1 {
     font-size: 80px;
     line-height: 90px;
     font-weight: 900;
@@ -24,7 +29,8 @@
     margin: 0 0 10px;
     box-sizing: border-box;
 }
-.tabContainer h3{
+
+.tabContainer h3 {
     font-size: 24px;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;

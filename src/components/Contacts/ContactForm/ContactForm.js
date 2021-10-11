@@ -16,7 +16,7 @@ export const ContactForm = () => {
             }}
         >
             {({isSubmitting}) => (
-                <Form>
+                <Form style={{width:"100%"}}>
                     <div className={s.nameAndEmailContainer}>
                         <Field name="name" className={s.name} type="text" placeholder={"Name"}/>
                         <Field name="email" className={s.email} type="email" placeholder={"Email"}/>

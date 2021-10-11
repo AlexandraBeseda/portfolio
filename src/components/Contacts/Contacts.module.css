@@ -3,18 +3,17 @@
 }
 
 .contactsContainer {
-    border: 1px solid black;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
 }
 
 .contactForm {
-    border: 1px solid;
     display: flex;
     justify-content: center;
-    width: 600px;
+    width: 800px;
 }
+
 /*ширина инпута равна то что указано ниже (min-width: 1129px), если размер экрана больше 1129x*/
 @media screen and (max-width: 768px) {
     .contactForm {

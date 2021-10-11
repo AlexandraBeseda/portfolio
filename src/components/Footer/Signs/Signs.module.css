@@ -16,8 +16,6 @@
 
 @media screen and (max-width: 600px) {
     .icons{
-        width: 100%;
-        justify-content: space-evenly;
-
+        width: 280px;
     }
 }

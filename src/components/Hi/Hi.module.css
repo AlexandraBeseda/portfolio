@@ -1,6 +1,5 @@
 .header_img {
     height: 100vh;
-    width: 100%;
     background-image: url("./../../assets/image/v4.png");
 
     /*
@@ -9,38 +8,46 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+
+
 }
 
-.title{
+.title {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 250px  0 150px 0;
     text-align: center;
+    margin-top: 15%;
 }
 
-.title h1{
+.title h1 {
     color: #fff;
     font-size: 80px;
     font-weight: 900;
     margin-bottom: 5px;
 }
-.title h2{
+
+.title h2 {
     color: #fff;
     font-size: 54px;
     font-weight: 900;
-    margin: 0;
 }
 
 @media screen and (max-width: 768px) {
-    .title h1,.title h2 {
+    .title h1, .title h2 {
         font-size: 40px;
+    }
+    .title{
+        margin-top: 30%;
     }
 }
 
 
 @media screen and (max-width: 425px) {
-    .title h1,.title h2 {
+    .title h1, .title h2 {
         font-size: 32px;
+    }
+    .title{
+        margin-top: 40%;
     }
 }

@@ -20,21 +20,21 @@ export const Works = () => {
     const socialAppBackImg = "https://i.pinimg.com/564x/31/61/92/3161926df735b51a872ab4fbece6ef9f.jpg";
     return (
         <div className={s.worksBlock}>
-            <a name={"works"}/>
+            <a name={"works"} >
 
-            <div className={`${styleContainer.container} ${s.worksContainer}`}>
-                <Title title={"Works"}/>
-                <div className={s.works}>
-                    <Work img={todolistAppBackImg} title={"TodoList"} description={"Material UI"}
-                          link={"https://alexandrabeseda.github.io/IgnatGames/#/pre-junior"}/>
-                    <Work img={socialAppBackImg} title={"Social app"} description={"Ant Design"}
-                          link={"https://alexandrabeseda.github.io/Put_samuraya_tsx/"}/>
-                    <Work img={socialAppBackImg} title={"Ignat"} description={"Ignat Ignat"}
-                          link={"https://alexandrabeseda.github.io/Put_samuraya_tsx/"}/>
+                <div className={`${styleContainer.container} ${s.worksContainer}`}>
+                    <Title title={"Works"}/>
+                    <div className={s.works}>
+                        <Work img={todolistAppBackImg} title={"TodoList"} description={"Material UI"}
+                              link={"https://alexandrabeseda.github.io/IgnatGames/#/pre-junior"}/>
+                        <Work img={socialAppBackImg} title={"Social app"} description={"Ant Design"}
+                              link={"https://alexandrabeseda.github.io/Put_samuraya_tsx/"}/>
+                        <Work img={socialAppBackImg} title={"Ignat"} description={"Ignat Ignat"}
+                              link={"https://alexandrabeseda.github.io/Put_samuraya_tsx/"}/>
 
+                    </div>
                 </div>
-            </div>
-
+            </a>
         </div>
     );
 }

@@ -11,7 +11,9 @@ export const Hi = () => {
             <div className={s.title}>
                 <h1>Hi, I Am Alexandra</h1>
                 <h2>I Am Developer</h2>
-                <Signs/>
+                <div>
+                    <Signs/>
+                </div>
             </div>
 
         </div>
